@@ -1,3 +1,0 @@
-ZAVRSENO 
-- napisati unit testove 
-- staviti na GitHub
