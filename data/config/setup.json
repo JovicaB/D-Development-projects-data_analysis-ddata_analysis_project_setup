@@ -1,0 +1,17 @@
+{"data_setup":
+    {
+        "raw_data_files_info": {"journal": {"file_path": ["data/raw_data/journal_data_2022.xlsx", "data/raw_data/journal_data_2023.xlsx"],  "sheet_name": "DK"},
+                                "financial_statements": {"file_path": "data/raw_data/financial_statements_data.xlsx", "sheet_name": "FI"}},
+
+        "input_container_info": {"file_path": "data/data.sqlite", "datatables" : {
+            "journal_table_name": "journal_data", "je_datatable_columns": {"date": "DATE", "konto": "TEXT", "duguje": "FLOAT", "potrazuje": "FLOAT"},
+            "fs_table_name": "fs_data", "fs_datatable_columns": {"aop": "TEXT", "description": "TEXT", "year_1": "FLOAT", "year_2": "FLOAT", "year_3": "FLOAT", "year_4": "FLOAT", "year_5": "FLOAT"}
+        }},
+        
+        "output_container_info": {"file_path": "data/data_analysis_results.sqlite", 
+            "table_name": "results",
+            "datatable_columns": {"description": "TEXT", "result": "TEXT"}
+        },
+
+        "account_names_info": {"file_path": "data/raw_data/account_ids.xlsx", "sheet_name": "account_IDs"}   
+    }}
