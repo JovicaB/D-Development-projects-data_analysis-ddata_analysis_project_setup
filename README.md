@@ -1,4 +1,4 @@
-# PROJECT SETUP FOR DATA ANALYSIS
+# DATA ENVIROMENT SETUP FOR SMALL DATA ANALYSIS PROJECTS
 
 Summary:
 - step 1. Validates raw data files (Excel data files)
