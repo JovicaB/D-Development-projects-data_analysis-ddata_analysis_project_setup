@@ -8,4 +8,4 @@ Summary:
 - step 5. Storing cleared data into created datatables
 
   ## Note
-  The project is adaptable for different situations by modifying the contents of the setup.json file.
+  The project is adaptable for similar different situations by modifying the contents of the setup.json file.
